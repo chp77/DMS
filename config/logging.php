@@ -122,13 +122,6 @@ return [
             'days' => 365, // one year
         ],
 
-        'userlog' => [
-            'driver' => 'daily',
-            'path' => storage_path('logs/user.log'),
-            'level' => env('LOG_LEVEL', 'debug'),
-            'days' => 365, // one year
-        ],
-
         'devicelog' => [
             'driver' => 'daily',
             'path' => storage_path('logs/device.log'),
@@ -139,6 +132,49 @@ return [
         'systemlog' => [
             'driver' => 'daily',
             'path' => storage_path('logs/system.log'),
+            'level' => env('LOG_LEVEL', 'debug'),
+            'days' => 365, // one year
+        ],
+
+        'actionlog' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/action.log'),
+            'level' => env('LOG_LEVEL', 'debug'),
+            'days' => 365, // one year
+        ],
+
+        // log the file based on the organization ID or user ID
+        'organizationLog' => [
+            'driver' => 'custom',
+            'via' => App\Logging\CreateOrganizationLogFile::class,
+            'level' => 'info',
+            'days' => 365,
+        ],
+
+        'userlog' => [
+            'driver' => 'custom',
+            'via' => App\Logging\CreateUserLogFile::class,
+            'level' => env('LOG_LEVEL', 'debug'),
+            'days' => 365, // one year
+        ],
+
+        'emaillog' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/email.log'),
+            'level' => env('LOG_LEVEL', 'debug'),
+            'days' => 365, // one year
+        ],
+
+        'apilog' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/api.log'),
+            'level' => env('LOG_LEVEL', 'debug'),
+            'days' => 365, // one year
+        ],
+
+        'webhooklog' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/webhook.log'),
             'level' => env('LOG_LEVEL', 'debug'),
             'days' => 365, // one year
         ],

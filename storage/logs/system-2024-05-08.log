@@ -1,0 +1,5 @@
+[2024-05-08 09:20:49] local.ERROR: Undefined variable: organization  
+[2024-05-08 09:32:52] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.id' in 'order clause' (SQL: select ROW_NUMBER() OVER (ORDER BY c.id) AS row_number, `u`.`id`, `u`.`name`, `u`.`email`, `u`.`created_at`, `u`.`updated_at`, `u`.`is_suspended` from `users` as `u` where `u`.`is_active` = 1)  
+[2024-05-08 09:33:03] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.id' in 'order clause' (SQL: select ROW_NUMBER() OVER (ORDER BY c.id) AS row_number, `u`.`id`, `u`.`name`, `u`.`email`, `u`.`created_at`, `u`.`updated_at`, `u`.`is_suspended` from `users` as `u` where `u`.`is_active` = 1)  
+[2024-05-08 17:45:38] local.ERROR: array_merge(): Expected parameter 1 to be an array, object given  
+[2024-05-08 17:46:05] local.ERROR: array_merge(): Expected parameter 2 to be an array, object given  

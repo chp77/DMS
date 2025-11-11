@@ -2,25 +2,20 @@
     <a class="nav-link push-menu" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
 
     <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
                 <i class="fa fa-bell nav-white"></i>
                 <span class="nav-text">Alert</span>
             </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                <i class="fa fa-link nav-white"></i>
-                <span class="nav-text">Enroll</span>
-            </a>
-        </li>
+        </li> -->
+        
         <li class="nav-item dropdown">
-            <a class="nav-link" data-toggle="dropdown" href="#">
+            <a class="nav-link hide" data-toggle="dropdown" href="#">
                 <span class="badge badge-danger navbar-badge">3</span>
                 <i class="fa fa-envelope nav-white"></i>
                 <span class="nav-text">Info Center</span>
             </a>
-            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right arrow-top">
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right arrow-top hide">
                 <a href="#" class="dropdown-item">
                     <div class="media">
                         <div class="media-body">
@@ -68,7 +63,7 @@
                 <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
             </div>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown hide">
             <a class="nav-link" data-toggle="dropdown" href="#">
             <i class="fa fa-globe nav-white"></i>
             </a>
@@ -81,7 +76,7 @@
                 </a>
             </div>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown hide">
             <a class="nav-link" data-toggle="dropdown" href="#">
                 <i class="fa fa-commenting nav-white"></i>
                 <span class="badge badge-warning navbar-badge">4</span>
@@ -104,18 +99,34 @@
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right arrow-top">
                 <span class="dropdown-header text-left text-dark font-weight-bold">
                     @if(session('user'))
-                        {{ session('user.name') }}
+                        {{ session('user.email') }}
                     @endif
                 </span>
-                <span class="dropdown-header text-left">
-                    Pro
-                    </br>
-                    (Remaining357 days)
-                </span>
+
+                <!-- @if(session('user.role') == 'Super admin')
+                    <div class="dropdown-divider"></div>
+
+                    @if(session('organizations'))
+                        @php
+                            $organizations = session('organizations');
+                            $selected = session('userOrganization');
+                        @endphp
+
+                        @foreach ($organizations as $organization)
+                            @if($selected == $organization->id)
+                                <a href="#" class="dropdown-item organization-list" style="font-weight: bold;" data-organization-id="{{ $organization->id }}" id="{{ $organization->id }}">
+                                    {{ $organization->name }} ✓
+                                </a>
+                            @else
+                                <a href="#" class="dropdown-item organization-list" data-organization-id="{{ $organization->id }}" id="{{ $organization->id }}">
+                                    {{ $organization->name }}
+                                </a>
+                            @endif
+                        @endforeach
+                    @endif
+                @endif -->
+
                 <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item">
-                    <i class="fa fa-cog"></i> Settings
-                </a>
                 <a href="{{ route('logout') }}" class="dropdown-item">
                     <i class="fa fa-sign-out"></i> Logout
                 </a>

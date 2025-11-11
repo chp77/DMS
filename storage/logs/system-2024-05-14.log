@@ -1,0 +1,6 @@
+[2024-05-14 09:09:08] local.ERROR: Undefined variable: user  
+[2024-05-14 09:09:11] local.ERROR: Undefined variable: user  
+[2024-05-14 09:09:13] local.ERROR: Undefined variable: user  
+[2024-05-14 15:44:53] local.ERROR: array_push() expects parameter 1 to be array, null given  
+[2024-05-14 16:38:37] local.ERROR: Undefined offset: 0  
+[2024-05-14 16:40:52] local.ERROR: Method Illuminate\Database\Eloquent\Collection::save does not exist.  

@@ -11,16 +11,16 @@ return [
     */
 
     // User Roles
-    'SUPER_ADMIN_ROLE' => 'Super-admin',
-    'ADMIN_ROLE' => 'Admin',
-    'SUB_ADMIN_ROLE' => 'Sub-admin',
-    'VIEWER_ROLE' => 'Viewer',
+    'SUPER_ADMIN_ROLE' =>  env('Super-admin', 'Laravel'),
+    'ADMIN_ROLE' =>  env('Admin', 'Laravel'),
+    'SUB_ADMIN_ROLE' =>  env('Sub-admin', 'Laravel'),
+    'VIEWER_ROLE' =>  env('Viewer', 'Laravel'),
 
     // Groups
-    'ALL_GROUP_TYPES' => 'All group types',
-    'DEFAULT_GROUP' => 'Default group',
-    'MANUAL_SELECTION_GROUP' => 'Manual selection',
-    'AUTO_ALLOCATION_GROUP' => 'Auto-allocation',
+    'ALL_GROUP_TYPES' =>  env('All group types', 'Laravel'),
+    'DEFAULT_GROUP' =>  env('Default group', 'Laravel'),
+    'MANUAL_SELECTION_GROUP' =>  env('Manual selection', 'Laravel'),
+    'AUTO_ALLOCATION_GROUP' =>  env('Auto-allocation', 'Laravel'),
 
     /*
     |--------------------------------------------------------------------------

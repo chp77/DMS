@@ -1,3 +1,4 @@
+// import './plugins/daterangepicker.js';
 require('./bootstrap');
 
 window.Vue = require('vue').default;
@@ -8,10 +9,15 @@ import '@andresouzaabreu/vue-data-table/dist/DataTable.css';
 Vue.config.productionTip = false;
 Vue.component("data-table", DataTable);
 
+import VueQRCodeComponent from 'vue-qrcode-component';
+Vue.component('qr-code', VueQRCodeComponent);
+
+import $ from 'jquery';
+window.$ = window.jQuery = $;
 import Form from 'vform';
 import HasError from 'vform';
 import AlertError from 'vform';
-window.Form  = Form;
+window.Form = Form;
 Vue.component(HasError.name, HasError);
 Vue.component(AlertError.name, AlertError);
 
@@ -41,34 +47,46 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 
 let routes =[
-    // Dashboard
-    { path: '/dashboard', component:require('./components/Dashboard/dashboard.vue').default },
+    // tracking page
+    { path: '/check-device', component:require('./components/Public/check.vue').default },
 
-    // Manage
-    { path: '/devices', component:require('./components/Manage/devices.vue').default },
-    { path: '/groups', component:require('./components/Manage/groups.vue').default },
+    // Asset Listing
+    { path: '/assets', component:require('./components/Assets/assets.vue').default },
+    { path: '/asset-add', component:require('./components/Assets/addAsset.vue').default },
+    { path: '/asset/show/:id', component:require('./components/Assets/editAsset.vue').default },
 
-    // Advanced
-    { path: '/profile', component:require('./components/Advanced/profile.vue').default },
-    { path: '/apps', component:require('./components/Advanced/apps.vue').default },
-    { path: '/input-switch', component:require('./components/Advanced/inputSwitch.vue').default },
-    { path: '/firmware-update', component:require('./components/Advanced/firmwareUpdate.vue').default },
-    { path: '/software-update', component:require('./components/Advanced/softwareUpdate.vue').default },
-    { path: '/pop-ups-blocker', component:require('./components/Advanced/popUpsBlocker.vue').default },
+    // Component Listing
+    { path: '/components', component:require('./components/Components/components.vue').default },
+    { path: '/component-add', component:require('./components/Components/addComponent.vue').default },
+    { path: '/component/show/:id', component:require('./components/Components/editComponent.vue').default },
 
-    // Records
-    { path: '/history', component:require('./components/Records/history.vue').default },
-    { path: '/in-schedule', component:require('./components/Records/inSchedule.vue').default },
-    { path: '/action-log', component:require('./components/Records/actionLog.vue').default },
+    // Brands
+    { path: '/brands', component:require('./components/Brands/brands.vue').default },
+    { path: '/brand-add', component:require('./components/Brands/addBrand.vue').default },
+    { path: '/brand/show/:id', component:require('./components/Brands/editBrand.vue').default },
 
-    // Resources
-    { path: '/resources', component:require('./components/Resources/resources.vue').default },
+    // Models
+    { path: '/models', component:require('./components/Models/models.vue').default },
+    { path: '/model-add', component:require('./components/Models/addModel.vue').default },
+    { path: '/model/show/:id', component:require('./components/Models/editModel.vue').default },
 
-    // System
-    { path: '/user-management', component:require('./components/System/users.vue').default },
-    { path: '/organization', component:require('./components/System/organization.vue').default },
-    { path: '/password', component:require('./components/System/password.vue').default },
-    { path: '/settings', component:require('./components/System/settings.vue').default },
+    // Sku
+    { path: '/skus', component:require('./components/Skus/skus.vue').default },
+    { path: '/sku-add', component:require('./components/Skus/addSku.vue').default },
+    { path: '/sku/show/:id', component:require('./components/Skus/EditSku.vue').default },
+
+    // Import CSV
+    { path: '/import-csv', component:require('./components/Csv/csv.vue').default },
+
+    // Users
+    { path: '/users', component:require('./components/System/users.vue').default },
+    { path: '/user-add', component:require('./components/System/addUser.vue').default },
+    { path: '/user/show/:id', component:require('./components/System/editUser.vue').default },
+
+    // Customers
+    { path: '/customers', component:require('./components/Customer/customers.vue').default },
+    { path: '/customer-add', component:require('./components/Customer/addCustomer.vue').default },
+    { path: '/customer/show/:id', component:require('./components/Customer/editCustomer.vue').default },
 ];
 
 const router = new VueRouter({

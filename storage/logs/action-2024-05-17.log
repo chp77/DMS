@@ -1,0 +1,25 @@
+[2024-05-17 17:56:41] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-05-17 18:37:28] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-05-17 18:38:11] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-05-17 22:22:31] local.INFO: User Admin with ID - 1 just added the new asset with ID - 45  
+[2024-05-17 22:26:39] local.INFO: User Admin with ID - 1 just added the new asset with ID - 45  
+[2024-05-17 22:28:27] local.INFO: User Admin with ID - 1 just added the new component info with ID - 16  
+[2024-05-17 22:28:47] local.INFO: User Admin with ID - 1 just updated the component info ID - 16  
+[2024-05-17 22:29:08] local.INFO: User chieng22 with ID - 4 just deleted the user ID - 4  
+[2024-05-17 22:31:44] local.INFO: User Admin with ID - 1 just added a new user: {"name":"hp-chieng@ep-asia.com","email":"hp-chieng@ep-asia.com","is_active":true,"updated_at":"2024-05-17T14:31:44.000000Z","created_at":"2024-05-17T14:31:44.000000Z","id":9}.  
+[2024-05-17 22:32:02] local.INFO: User Admin with ID - 1 just updated the user details: user - ID 9...  
+[2024-05-17 22:32:09] local.INFO: User hp-chieng@ep-asia.comasdas with ID - 9 just deleted the user ID - 9  
+[2024-05-17 22:32:21] local.INFO: User Admin with ID - 1 just deleted the customer ID - 4  
+[2024-05-17 22:32:28] local.INFO: User Admin with ID - 1 just deleted the customer ID - 3  
+[2024-05-17 22:33:07] local.INFO: User Admin with ID - 1 just updated the customer info with ID - 5  
+[2024-05-17 22:33:31] local.INFO: User Admin with ID - 1 just updated the customer info with ID - 5  
+[2024-05-17 22:34:00] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-05-17 22:34:10] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-05-17 22:40:17] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-05-17 22:41:41] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-05-17 22:41:55] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-05-17 22:44:08] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-05-17 22:45:19] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-05-17 22:48:06] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-05-17 22:48:13] local.INFO: User Admin with ID - 1 just added the new asset with ID - 45  
+[2024-05-17 22:48:31] local.INFO: User Admin with ID - 1 just added the new asset with ID - 45  

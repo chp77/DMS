@@ -1,160 +1,78 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <div class="brand-link">
-        <img src="https://s0.r302.cc/cloud-static/ifp-remotex-frontend/remoteXStatic/static/logo.1ae6a69f.svg" alt="logo">
+        <!-- <img src="{{ asset('inventory.png') }}" width="30px;" alt="logo"> -->
+        <span class="brand-text font-weight-bold" style="padding-top: 10px;">AMS</span>
     </div>
 
     <div class="sidebar-left">
         <nav class="">
             <ul class="nav nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <li class="nav-item">
-                    <router-link to="dashboard" class="nav-link">
-                        <i class="nav-icon fa fa-line-chart"></i>
+                    <router-link to="/assets" class="nav-link">
+                        <i class="nav-icon fa fa-database"></i>
                         <p>
-                            Dashboard
+                            Asset Listing
                         </p>
                     </router-link>
                 </li>
-                <li class="nav-item menu-close">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon fa fa-television"></i>
-                        <p>
-                            Manage
-                            <i class="right fas fa-angle-down"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <router-link to="devices" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Devices</p>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="groups" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Groups</p>
-                            </router-link>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item menu-close">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon fa fa-star"></i>
-                        <p>
-                            Advanced
-                            <i class="right fas fa-angle-down"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <router-link to="profile" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Profile</p>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="apps" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Apps</p>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="input-switch" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Input switch</p>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="firmware-update" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Firmware update</p>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="software-update" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Software update</p>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="pop-ups-blocker" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Pop-ups blocker</p>
-                            </router-link>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item menu-close">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon fa fa-address-card"></i>
-                        <p>
-                            Records
-                            <i class="right fas fa-angle-down"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <router-link to="history" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>History</p>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="in-schedule" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>In Schedule</p>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="action-log" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Action log</p>
-                            </router-link>
-                        </li>
-                    </ul>
-                </li>
+                
                 <li class="nav-item">
-                    <router-link to="resources" class="nav-link">
-                        <i class="nav-icon fa fa-archive"></i>
+                    <router-link to="/import-csv" class="nav-link">
+                        <i class="nav-icon fas fa-cloud-upload-alt"></i>
                         <p>
-                            Resources
+                            Import CSV
                         </p>
                     </router-link>
                 </li>
-                <li class="nav-item menu-close">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon fa fa-sliders"></i>
+
+                <li class="nav-item">
+                    <router-link to="/components" class="nav-link">
+                        <i class="nav-icon fas fa-microchip"></i>
                         <p>
-                            System
-                            <i class="right fas fa-angle-down"></i>
+                            Components
                         </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <router-link to="user-management" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>User Management</p>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="organization" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Organization</p>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="password" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Password</p>
-                            </router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link to="settings" class="nav-link">
-                                <i class="far fa-circle- nav-icon"></i>
-                                <p>Settings</p>
-                            </router-link>
-                        </li>
-                    </ul>
+                    </router-link>
+                </li>
+
+                <li class="nav-item">
+                    <router-link to="/brands" class="nav-link">
+                        <i class="nav-icon fa-brands fa-buromobelexperte"></i>
+                        <p>
+                            Brands
+                        </p>
+                    </router-link>
+                </li>
+
+                <li class="nav-item">
+                    <router-link to="/models" class="nav-link">
+                        <i class="nav-icon fa-brands fa-bandcamp"></i>
+                        <p>
+                            Models
+                        </p>
+                    </router-link>
+                </li>
+
+                <li class="nav-item">
+                    <router-link to="/skus" class="nav-link">
+                        <i class="nav-icon fa-brands fa-product-hunt"></i>
+                        <p>
+                            SKU
+                        </p>
+                    </router-link>
+                </li>
+                
+                <li class="nav-item">
+                    <router-link to="/users" class="nav-link">
+                        <i class="far fas fa-user-shield nav-icon"></i>
+                        <p>Users</p>
+                    </router-link>
+                </li>
+
+                <li class="nav-item">
+                    <router-link to="/customers" class="nav-link">
+                        <i class="far fa-users nav-icon"></i>
+                        <p>Customers</p>
+                    </router-link>
                 </li>
             </ul>
         </nav>

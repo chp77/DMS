@@ -1,0 +1,10 @@
+[2024-07-12 00:13:08] local.ERROR: There are no commands defined in the "clear" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"clear\" namespace. at /home/epasia/domains/ams.epasia.cc/DMS/vendor/symfony/console/Application.php:650)
+[stacktrace]
+#0 /home/epasia/domains/ams.epasia.cc/DMS/vendor/symfony/console/Application.php(701): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /home/epasia/domains/ams.epasia.cc/DMS/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#2 /home/epasia/domains/ams.epasia.cc/DMS/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#3 /home/epasia/domains/ams.epasia.cc/DMS/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#4 /home/epasia/domains/ams.epasia.cc/DMS/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#5 /home/epasia/domains/ams.epasia.cc/DMS/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 

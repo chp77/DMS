@@ -1,0 +1,32 @@
+[2024-06-18 08:19:13] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:26:15] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:26:19] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:29:04] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:29:07] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:30:09] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:34:50] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:36:20] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:39:29] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:39:49] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:40:06] local.INFO: User 1 with ID - 1 just added the new asset with ID - 11  
+[2024-06-18 08:44:45] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:46:41] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:47:03] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-18 08:48:31] local.INFO: User 1 with ID - 1 just deleted the brand ID - 19  
+[2024-06-18 08:48:34] local.INFO: User 1 with ID - 1 just deleted the brand ID - 18  
+[2024-06-18 08:48:38] local.INFO: User 1 with ID - 1 just deleted the brand ID - 17  
+[2024-06-18 08:48:50] local.INFO: User 1 with ID - 1 just deleted the model ID - 11  
+[2024-06-18 08:48:53] local.INFO: User 1 with ID - 1 just deleted the model ID - 10  
+[2024-06-18 08:48:57] local.INFO: User 1 with ID - 1 just deleted the model ID - 9  
+[2024-06-18 09:24:47] local.INFO: User 1 with ID - 1 just added the new asset with ID - 1  
+[2024-06-18 09:34:37] local.INFO: User 1 with ID - 1 just added the new asset with ID - 2  
+[2024-06-18 13:29:29] local.INFO: User 1 with ID - 1 just deleted the asset ID - 1  
+[2024-06-18 13:29:35] local.INFO: User 1 with ID - 1 just deleted the asset ID - 2  
+[2024-06-18 13:30:07] local.INFO: User 1 with ID - 1 just deleted the brand ID - 20  
+[2024-06-18 13:30:14] local.INFO: User 1 with ID - 1 just deleted the brand ID - 21  
+[2024-06-18 13:30:25] local.INFO: User 1 with ID - 1 just deleted the brand ID - 21  
+[2024-06-18 13:46:49] local.INFO: User 1 with ID - 1 just deleted the asset ID - 3  
+[2024-06-18 13:46:56] local.INFO: User 1 with ID - 1 just deleted the asset ID - 4  
+[2024-06-18 13:49:30] local.ERROR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'qa_video_url' at row 1 (SQL: update `assets` set `customer_order_number` = ?, `qa_video_url` = https://eptecsg.sharepoint.com/sites/china/_layouts/15/stream.aspx?id=%2Fsites%2Fchina%2FShared%20Documents%2FQA%20video%2Fdc62941d0567%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee5d9f6a6%2Dd012%2D4c02%2Da0b1%2Df2f4e5a9d5c8, `manufacture_date` = 2024-06-18, `warranty_started_date` = 2024-06-18, `warranty_expiry_date` = 2026-06-18 00:00:00, `remarks` = ?, `component_ids` = [], `assets`.`updated_at` = 2024-06-18 13:49:30 where `id` = 6)  
+[2024-06-18 13:51:50] local.INFO: User 1 with ID - 1 just deleted the model ID - 12  
+[2024-06-18 13:52:01] local.INFO: User 1 with ID - 1 just deleted the model ID - 12  

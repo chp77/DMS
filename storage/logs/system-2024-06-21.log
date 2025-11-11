@@ -1,0 +1,18 @@
+[2024-06-21 10:12:55] local.ERROR: Undefined offset: 0  
+[2024-06-21 10:13:19] local.ERROR: Undefined offset: 0  
+[2024-06-21 10:13:29] local.ERROR: Undefined offset: 0  
+[2024-06-21 10:54:42] local.ERROR: No query results for model [App\Models\Component] 5  
+[2024-06-21 10:54:50] local.ERROR: No query results for model [App\Models\Component] 5  
+[2024-06-21 10:54:54] local.ERROR: No query results for model [App\Models\Component] 5  
+[2024-06-21 10:54:57] local.ERROR: No query results for model [App\Models\Component] 5  
+[2024-06-21 10:56:22] local.ERROR: No query results for model [App\Models\Component] 5  
+[2024-06-21 10:56:31] local.ERROR: No query results for model [App\Models\Component] 5  
+[2024-06-21 10:56:58] local.ERROR: No query results for model [App\Models\Component] 5  
+[2024-06-21 11:01:12] local.ERROR: No query results for model [App\Models\Component] 5  
+[2024-06-21 11:07:20] local.ERROR: No query results for model [App\Models\Component] 5  
+[2024-06-21 11:07:28] local.ERROR: No query results for model [App\Models\Component] 5  
+[2024-06-21 11:07:32] local.ERROR: No query results for model [App\Models\Component] 5  
+[2024-06-21 11:54:08] local.ERROR: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '21/6/2024' for column `ams`.`assets`.`manufacture_date` at row 1 (SQL: update `assets` set `qa_video_url` = https://eptecsg.sharepoint.com/sites/china/_layouts/15/stream.aspx?id=%2Fsites%2Fchina%2FShared%20Documents%2FQA%20video%2Fdc62941d0567%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edfcd5bc5%2Dc0f2%2D45b4%2Db197%2D4df8f6e4934a, `manufacture_date` = 21/6/2024, `warranty_started_date` = 21/6/2024, `warranty_expiry_date` = 20/6/2025, `assets`.`updated_at` = 2024-06-21 11:54:08 where `id` = 20)  
+[2024-06-21 11:58:09] local.ERROR: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '21/6/2024' for column `ams`.`assets`.`manufacture_date` at row 1 (SQL: update `assets` set `qa_video_url` = https://eptecsg.sharepoint.com/sites/china/_layouts/15/stream.aspx?id=%2Fsites%2Fchina%2FShared%20Documents%2FQA%20video%2Fdc62941d0567%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edfcd5bc5%2Dc0f2%2D45b4%2Db197%2D4df8f6e4934a, `manufacture_date` = 21/6/2024, `warranty_started_date` = 21/6/2024, `warranty_expiry_date` = 20/6/2025, `assets`.`updated_at` = 2024-06-21 11:58:09 where `id` = 20)  
+[2024-06-21 12:02:31] local.ERROR: Creating default object from empty value  
+[2024-06-21 12:09:23] local.ERROR: Creating default object from empty value  

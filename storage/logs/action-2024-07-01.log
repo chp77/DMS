@@ -1,0 +1,15 @@
+[2024-07-01 16:30:05] local.INFO: User 1 with ID - 1 just added a new brand with ID - 32  
+[2024-07-01 16:30:49] local.INFO: User 1 with ID - 1 just added a new model with ID - 55  
+[2024-07-01 16:31:06] local.INFO: User 1 with ID - 1 just updated the brand name - ID 32...  
+[2024-07-01 16:31:48] local.INFO: User 1 with ID - 1 just updated the model name - ID 55...  
+[2024-07-01 16:37:20] local.ERROR: Invalid route attempt: com by user ID: 1  
+[2024-07-01 18:13:00] local.ERROR: Invalid route attempt: com by user ID: 1  
+[2024-07-01 18:23:50] local.INFO: User 1 with ID - 1 just added the new component info with ID - 39  
+[2024-07-01 18:24:47] local.INFO: User 1 with ID - 1 just updated the component info ID - 39  
+[2024-07-01 18:27:24] local.INFO: User 1 with ID - 1 just added the new component info with ID - 40  
+[2024-07-01 18:28:57] local.INFO: User 1 with ID - 1 just updated the component info ID - 40  
+[2024-07-01 18:29:40] local.INFO: User 1 with ID - 1 just updated the component info ID - 39  
+[2024-07-01 18:30:10] local.INFO: User 1 with ID - 1 just updated the model name - ID 55...  
+[2024-07-01 18:30:38] local.INFO: User 1 with ID - 1 just added a new model with ID - 56  
+[2024-07-01 18:31:10] local.INFO: User 1 with ID - 1 just updated the component info ID - 40  
+[2024-07-01 18:34:17] local.INFO: User 1 with ID - 1 just added a new model with ID - 57  

@@ -8960,7 +8960,7 @@ body,
 }
 
 .sidebar-dark-primary {
-    background-color: #001529;
+    background-color: #222d32;
 }
 
 .sidebar-dark-primary .user-panel a:hover {
@@ -9001,7 +9001,7 @@ body,
 }
 
 .sidebar-dark-primary .nav-sidebar > .nav-item > .nav-treeview {
-    background: #000c17;
+    background: #2f0234;
 }
 
 .sidebar-dark-primary .nav-header {
@@ -13030,7 +13030,7 @@ a.text-muted:hover {
 }
 
 .navbar-dark-blue {
-    background-color: #001529;
+    background-color: #3c8dbc;
 }
 
 @charset "UTF-8"; /*!
@@ -34080,7 +34080,7 @@ readers do not read off random characters that represent icons */
 
 .nav-white {
     color: #babec5;
-    background-color: #142639;
+    background-color: white;
     border-radius: 50%;
     padding: 7px;
     font-size: 15px;
@@ -34097,7 +34097,7 @@ readers do not read off random characters that represent icons */
 }
 
 .router-link-exact-active {
-    background-color: #4965d6;
+    background-color: #1e282c;
 }
 
 .container-full {
@@ -34185,4 +34185,12 @@ readers do not read off random characters that represent icons */
         margin-top: 15px;
         margin-left: 0px;
     }
+}
+
+.fa-bars {
+    color: white;
+}
+
+.pagination-search {
+    display: none !important;
 }

@@ -1,148 +1,69 @@
 <template>
     <div class="container-full">
-        <div class="row justify-content-center mt-4">
-            <div class="breadcrumb row">
-                <div class="breadcrumb-item">
-                    <span style="color: grey;">System / </span><strong>User manage</strong>
+        <div class="breadcrumb row">
+            <div class="breadcrumb-item">
+                
+            </div>
+        </div>
+        <div class="header">
+            <h2>User Listing</h2>
+
+            <div class="card">
+                <div class="card-body row">
+                    <div class="col-md-10">
+                        
+                    </div>
+                    <div class="col-md-2 card-tools">
+                        <router-link to="user-add" class="btn btn-primary btn-add fa-pull-right">Add user</router-link>
+                    </div>
                 </div>
             </div>
-            <div class="header">
-                <h2>User Manage {{ appName }} </h2>
 
-                <div class="card">
-                    <div class="card-body row">
-                        <div class="col-md-10">
-                            Supports adding new user with different roles and group rights to manage this organization.
-                            <br>
-                            * Limit 20 users in this organization
-                        </div>
-                        <div class="col-md-2 card-tools">
-                            <button type="button" class="btn btn-primary fa-pull-right" @click="addUser">Add user</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- <div class="card">
-                    <div class="card-body">
-                        <div class="form-group">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <tr>
-                                        <th>Username</th>
-                                        <th>Account</th>
-                                        <th>Role</th>
-                                        <th>Action</th>
-                                    </tr>
-                                    <tr v-for="user in users" :key="user.id">
-                                        <td>{{ user.name }}</td>
-                                        <td>{{ user.email }}</td>
-                                        <td>{{ user.role }}</td>
-                                        <td>
-                                            <a href="#" @click="editUser(user)"><i class="fas fa-edit blue"></i></a> | <a href="#" @click="deleteUser(user.id)"><i class="fas fa-trash-alt red"></i></a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-                <div class="card mt-4">
-                    <div class="card-body row">
-                    <data-table v-bind="tableProps" @actionTriggered="handleAction"/>
-                    </div>
+            <div class="card mt-4 card-outline card-purple">
+                <div class="card-body row">
+                    <data-table v-bind="tableProps"/>
                 </div>
             </div>
         </div>
-
-        <!-- Modal add user-->
-        <!-- <div class="modal fade" id="modalAddUser" tabindex="-1" role="dialog" aria-labelledby="modalAddUser1" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="addUserLabel" v-show="!statusModal">Add user</h5>
-                        <h5 class="modal-title" id="addUserLabel" v-show="statusModal">Update user</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <form @submit.prevent="statusModal ? updateData() : storeData()">
-                        <div class="modal-body">
-                            <div class="form-group">
-                                <input type="text" v-model="form.name" class="form-control" placeholder="userName" :class="{ 'is-invalid' : form.errors.has('name') }">
-                                <has-error :form="form" field="name"></has-error>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" v-model="form.email" class="form-control" placeholder="Email" :class="{ 'is-invalid' : form.errors.has('email') }">
-                                <has-error :form="form" field="email"></has-error>
-                            </div>
-                            <div class="form-group">
-                                <select v-model="form.role" class="form-control select2" :class="{ 'is-invalid' : form.errors.has('role') }">
-                                    <option disabled>Select role</option>
-                                    <option value="Admin">Admin</option>
-                                    <option value="Agent">Agent</option>
-                                </select>
-                                <has-error :form="form" field="role"></has-error>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="submit" class="btn btn-primary" :disabled="disabled" v-show="!statusModal">
-                                <i v-show="loading" class="fa fa-spinner fa-spin"></i>
-                                Create
-                            </button>
-                            <button type="submit" class="btn btn-success" :disabled="disabled" v-show="statusModal">
-                                <i v-show="loading" class="fa fa-spinner fa-spin"></i>
-                                Save
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div> -->
     </div>
 </template>
 
 <script>
-    import CustomCheckbox from "../CustomCheckbox.vue";
+    import UserActionsBtn from "../UserActionsBtn.vue";
     import Spinner from "../Spinner.vue";
-
+    import Multiselect from 'vue-multiselect';
+    
     export default {
-        computed: {
-            appName() {
-                return window.config.appName;
+        components: { Multiselect },
+        props: {
+            user: {
+                type: String,
+                required: true
             }
         },
         data() {
             return{
-                loading: false,
-                disabled: false,
-                statusModal: false,
-                users :{},
+                error: new Form({
+                    message: '',
+                    errors: []
+                }),
                 form: new Form({
                     id: "",
                     name: "",
-                    role: "",
-                    email: ""
+                    
                 }),
                 tableProps: {
                     data: [], // Initialize the data array as empty
                     columns: [
-                        { key: "id", title: "", sortable: false, component: CustomCheckbox },
+                        { key: "row_number", title: "ID", sortable: false },
                         { key: "name", title: "Username" },
-                        { key: "email", title: "Account" },
-                        { key: "role", title: "Role" },
-                        { key: "updated_at", title: "Latest operation" },
-                        { key: "device_number", title: "Device No." },
+                        { key: "email", title: "Email" },
+                        { key: "created_at", title: "Created at" },
                         {
                             key: 'actions',
                             title: 'Actions',
                             sortable: false,
-                            formatter: (value, key, item) => {
-                                return `
-                                <button @click="editUser(${item.id})">Edit</button>
-                                <button @click="deleteUser(${item.id})">Delete</button>
-                                `;
-                            },
+                            component: UserActionsBtn,
                         },
                     ],
                     text: {
@@ -152,7 +73,13 @@
                     loadingComponent: Spinner,
                     isLoading: true,
                     showDownloadButton: false,
-                    footerComponent: null
+                    footerComponent: null,
+                    showSearchFilter: false,
+                    showEntriesInfo: true,
+                    showPerPage: true,
+                    showPagination: true,
+                    perPageOptions: [10, 25, 50, 100, 1000],
+                    defaultPerPage: 10,
                 },
             };
         },
@@ -162,70 +89,14 @@
             }, 1000);
         },
         methods: {
-            handleAction(action, payload) {
-                console.log(action, payload)
-                window.alert("check out the console to see the data logged");
-            },
-            addUser() {
-                this.statusModal = false;
-
-                // clear the form
-                this.form.reset();
-
-                // hide the add user modal
-                $("#modalAddUser").modal("show");
-            },
-            editUser(user) {
-                this.statusModal = true;
-
-                // clear the form
-                this.form.reset();
-
-                // hide the add user modal
-                $("#modalAddUser").modal("show");
-
-                // fill the form
-                this.form.fill(user);
-            },
-            deleteUser(id) {
-                Swal.fire({
-                    title: "Are you sure you want to delete this user?",
-                    text: "Click Cancel To Cancel Deletion",
-                    icon: "warning",
-                    showCancelButton: true,
-                    confirmButtonColor: "#3085d6",
-                    cancelButtonColor: "#d33",
-                    confirmButtonText: "Delete"
-                }).then(result => {
-                    if (result.value) {
-                        this.form
-                            .delete("api/user/" + id)
-                            .then(() => {
-                                Swal.fire(
-                                    "Deleted",
-                                    "User have been deleted!",
-                                    "success"
-                                );
-                                Fire.$emit("refreshData");
-                            })
-                            .catch(() => {
-                                Swal.fire(
-                                    "Error",
-                                    "Unable to performed this action",
-                                    "warning"
-                                );
-                            });
-                    }
-                });
-            },
             loadData() {
                 this.$Progress.start();
-                this.tableProps.isLoading = true;
 
-                axios.get('api/users/listing')
+                axios.get('users/listing')
                     .then(response => {
-                        if (response.data.statusCode === 200) {
-                            this.tableProps.data = response.data.data
+                        if (response.data.statusCode === 200) {[
+                            this.tableProps.data = response.data.data == '{}' ? [] : response.data.data,
+                            this.users = response.data.data]
                         } else {
                             Swal.fire(
                                 "500",
@@ -251,65 +122,179 @@
                             "warning"
                         );
                     });
+                    setTimeout(() => {
+                        this.tableProps.isLoading = false;
+                    }, 1000);
 
                 this.$Progress.finish();
-                this.tableProps.isLoading = false;
+
+                axios.get('/timezone/listing')
+                    .then(response => {
+                        if (response.data.statusCode === 200) {
+                            this.timeZoneOptions = response.data.response;
+                        } else {
+                            Toast.fire({
+                                icon: 'error',
+                                title: 'Unable to get the timezone list!'
+                            });
+                        }
+                    })
+                    .catch(error => {
+                        if (error.response) {
+                            console.log(error.response.data);
+                            console.log(error.response.status);
+                            console.log(error.response.headers);
+                        } else if (error.request) {
+                            console.log(error.request);
+                        } else {
+                            console.log('Error', error.message);
+                        }
+
+                        Swal.fire(
+                            "500",
+                            "Internal server error, unable to get commands list!",
+                            "warning"
+                        );
+                    });
+            },
+            addUser() {
+                this.statusModal = false;
+                this.selectedTimezone = null;
+                this.form.reset();
+                $("#modalAddUser").modal("show");
             },
             storeData() {
                 this.$Progress.start();
                 this.loading = true;
                 this.disabled = true;
+                this.form.timezone = this.selectedTimezone;
 
                 // API post request
-                this.form.post('api/user').then(() => {
-                    // reload the users data
-                    Fire.$emit("refreshData");
+                this.form.post('user/add')
+                .then(response => {
+                    if (response.data.statusCode === 200) {
+                        // reload the users data
+                        Fire.$emit("refreshData");
 
-                    $("#modalAddUser").modal("hide");
+                        $("#modalAddUser").modal("hide");
 
-                    // show success message
-                    Toast.fire({
-                        icon: 'success',
-                        title: 'User added successfully.'
-                    });
+                        // show success message
+                        Toast.fire({
+                            icon: 'success',
+                            title: 'User added successfully.'
+                        });
 
-                    this.$Progress.finish();
+                        this.form.reset();
+                        
+                        this.loadData();
+                        this.$Progress.finish();
+                    } else {
+                        Swal.fire(
+                            "" + response.data.statusCode + "",
+                            response.data.error,
+                            "warning"
+                        );
+
+                        $("#modalAddUser").modal("hide");
+
+                        this.$Progress.fail();
+                    }
                     this.loading = false;
                     this.disabled = false;
                 })
-                .catch(() => {
+                .catch((error) => {
                     this.$Progress.fail();
                     this.loading = false;
                     this.disabled = false;
                 });
             },
-            updateData() {
+            updateData(d) {
                 this.$Progress.start();
                 this.loading = true;
                 this.disabled = true;
 
+                // get form data
+                this.data.id = d.id;
+                this.data.name = $("#form_username_" + d.id).val();
+                this.data.email = $("#form_email_" + d.id).val();
+                this.data.password = $("#form_password_" + d.id).val();
+                this.data.role = d.role;
+                this.data.access_settings = d.access_settings;
+                this.data.device_access_settings = d.device_access_settings;
+                this.data.group_access_settings = d.group_access_settings;
+                this.data.timezone = d.timezone;
+
                 // API post request
-                this.form.put('api/user/' + this.form.id).then(() => {
-                    // reload the users data
-                    Fire.$emit("refreshData");
+                this.data.post('user/update/' + d.id)
+                .then(response => {
+                    $('[data-dismiss="modal"]').trigger('click');
 
-                    $("#modalAddUser").modal("hide");
+                    if (response.data.statusCode === 200) {
+                        Toast.fire({
+                            icon: 'success',
+                            title: 'User updated successfully.'
+                        });
 
-                    // show success message
-                    Toast.fire({
-                        icon: 'success',
-                        title: 'User updated successfully.'
-                    });
+                        this.$Progress.finish();
+                        this.accordionItems = {
+                            1: {
+                                open: false,
+                            },
+                            2: {
+                                open: false,
+                            },
+                            3: {
+                                open: false,
+                            },
+                            4: {
+                                open: false,
+                            },
+                            5: {
+                                open: false,
+                            },
+                            6: {
+                                open: false,
+                            },
+                            7: {
+                                open: false,
+                            },
+                            8: {
+                                open: false,
+                            },
+                            9: {
+                                open: false,
+                            },
+                            10: {
+                                open: false,
+                            }
+                        };
+                        this.data.reset();
+                        this.error.reset();
 
-                    this.$Progress.finish();
-                    this.loading = false;
-                    this.disabled = false;
+                        setTimeout(() => {
+                            this.loadData();
+                        }, 1000);
+                    } else {
+                        Toast.fire({
+                            icon: 'error',
+                            title: response.data.error
+                        });
+
+                        this.$Progress.fail();
+                    }
                 })
-                .catch(() => {
+                .catch(error => {
+                    this.error.message = error.response.data.message;
+                    this.error.errors = error.response.data.errors;
+
                     this.$Progress.fail();
-                    this.loading = false;
-                    this.disabled = false;
                 });
+
+                this.loading = false;
+                this.disabled = false;
+            },
+            closeModal() {
+                $("#modalAddUser").modal("hide");
             }
         },
         created() {
@@ -320,3 +305,75 @@
         }
     }
 </script>
+
+<style>
+    .scheduler-alert {
+        z-index: 10000 !important;
+    }
+    .left-container {
+        overflow: hidden;
+        position: relative;
+        height: 99vh;
+        display: inline-block;
+        width: 100%;
+    }
+    .action-background-light-grey {
+        background-color: #eee;
+        padding: 18px 18px 10px 18px;
+    }
+    .dropdown-icon {
+        margin-top: -8px;
+        margin-bottom: 5px;
+    }
+    .main-module {
+        margin-bottom: 5px;
+    }
+    .side-module {
+        margin-left: 20px !important;
+    }
+    .h6-weight {
+        font-weight: 600;
+    }
+    .accordion-content {
+        padding: 20px 20px;
+        display: grid;
+    }
+    .alert-red {
+        color: red !important;
+    }
+    .swal2-container {
+        z-index: 10000;
+    }
+    .accordion-bar {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+    .active-accordion-bar, .accordion-bar:hover {
+        background-color: #ccc;
+    }
+    .accordion-bar:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    .active-accordion-bar:after {
+        content: "\2212";
+    }
+    .panel-block {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 140px;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+</style>

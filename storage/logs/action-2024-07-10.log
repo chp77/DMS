@@ -1,0 +1,10 @@
+[2024-07-10 14:21:28] local.ERROR: Invalid route attempt: com by user ID: 1  
+[2024-07-10 14:22:44] local.ERROR: Invalid route attempt: com by user ID: 1  
+[2024-07-10 14:24:45] local.INFO: User 1 with ID - 1 just updated the model name - ID 30...  
+[2024-07-10 14:25:30] local.INFO: User 1 with ID - 1 just updated the model name - ID 31...  
+[2024-07-10 14:26:52] local.INFO: User 1 with ID - 1 just updated the component info ID - 23  
+[2024-07-10 14:28:15] local.INFO: User 1 with ID - 1 just updated the component info ID - 24  
+[2024-07-10 14:28:50] local.INFO: User 1 with ID - 1 just updated the component info ID - 24  
+[2024-07-10 14:33:29] local.INFO: User 1 with ID - 1 just added a new model with ID - 33  
+[2024-07-10 14:38:42] local.INFO: User 1 with ID - 1 just added a new model with ID - 34  
+[2024-07-10 14:44:07] local.INFO: User 1 with ID - 1 just added a new user: {"name":"davidlu","email":"davidlu@epasia.cc","is_active":true,"updated_at":"2024-07-10T06:44:07.000000Z","created_at":"2024-07-10T06:44:07.000000Z","id":10}.  

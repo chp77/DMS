@@ -39,7 +39,14 @@ return [
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
+            'remember' => 43200,
         ],
+        'api' => [
+            'driver' => 'jwt',
+            'provider' => 'users',
+            'hash' => false,
+            'expire' => null,
+        ]
     ],
 
     /*

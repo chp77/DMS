@@ -1,0 +1,6 @@
+[2024-06-11 14:22:18] local.ERROR: Undefined offset: 0  
+[2024-06-11 14:29:14] local.ERROR: Undefined offset: 0  
+[2024-06-11 14:29:20] local.ERROR: Undefined offset: 0  
+[2024-06-11 14:29:24] local.ERROR: Undefined offset: 0  
+[2024-06-11 15:17:44] local.ERROR: Undefined offset: 0  
+[2024-06-11 15:39:52] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.mac_address' in 'field list' (SQL: select ROW_NUMBER() OVER (ORDER BY a.id) AS row_number, `a`.`id`, `a`.`order_number`, `a`.`customer_order_number`, `a`.`serial_number`, `a`.`mac_address`, `a`.`brand`, `a`.`model`, `a`.`qa_video_url`, DATE_FORMAT(a.manufacture_date, '%Y-%m-%d') as manufacture_date, `a`.`warranty_period`, DATE_FORMAT(a.warranty_started_date, '%Y-%m-%d') as warranty_started_date, DATE_FORMAT(a.warranty_expiry_date, '%Y-%m-%d') as warranty_expiry_date, `a`.`id`, `a`.`remarks`, `a`.`customer_id`, `a`.`user_id`, `a`.`component_ids`, `a`.`is_csv_import`, `a`.`sku`, `a`.`is_active` from `assets` as `a` where `a`.`is_active` = 1 order by `a`.`created_at` desc)  

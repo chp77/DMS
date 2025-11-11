@@ -2,26 +2,24 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" style="padding: 120px;">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Reset Password') }}</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
+            <div class="card" style="padding: 50px 80px;">
+                <div class="card-body" style="text-align: center;">
+                    <img style="width: 110px; margin-bottom: 20px;" src="{{ asset('cms_logo.png') }}" alt="CMS" />
+                    <label class="col-md-12" style="color: #1a2340; font-size: 18px; font-weight: 700;">{{ __('Reset Password') }}</label>
+                    @if(isset($status))
+                        <div class="alert alert-danger" role="alert">
+                            {{ $status }}
                         </div>
                     @endif
 
-                    <form method="POST" action="{{ route('password.email') }}">
+                    <form method="POST" action="{{ route('password.update') }}">
                         @csrf
 
-                        <div class="row mb-3">
-                            <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                        <div class="row">
+                            <div class="col-md-12 mt-2">
+                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="{{ __('Email Address') }}" />
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -31,8 +29,8 @@
                             </div>
                         </div>
 
-                        <div class="row mb-0">
-                            <div class="col-md-6 offset-md-4">
+                        <div class="row">
+                            <div class="col-md-12 mt-4">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Send Password Reset Link') }}
                                 </button>

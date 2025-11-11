@@ -1,0 +1,4 @@
+[2024-07-05 10:50:17] local.ERROR: Invalid route attempt: com by user ID: 1  
+[2024-07-05 10:50:46] local.INFO: User 1 with ID - 1 just added a new brand with ID - 25  
+[2024-07-05 10:50:59] local.INFO: User 1 with ID - 1 just added a new model with ID - 32  
+[2024-07-05 11:00:50] local.INFO: User 1 with ID - 1 just updated the component info ID - 24  

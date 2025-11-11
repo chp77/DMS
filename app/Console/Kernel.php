@@ -11,7 +11,6 @@ class Kernel extends ConsoleKernel
      * @var array 
      */
     protected $commands = [
-        Commands\SendCommand::class,
     ];
 
     /**
@@ -22,7 +21,6 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('send:command')->everyMinute();
     }
 
     /**

@@ -6,12 +6,16 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "diegonz/php-wake-on-lan": "^2.1",
         "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^7.0.1",
+        "guzzlehttp/guzzle": "^7.0",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "laravel/ui": "^3.4"
+        "laravel/ui": "^3.4",
+        "pbmedia/laravel-ffmpeg": "^7.8",
+        "simplesoftwareio/simple-qrcode": "^4.2",
+        "tymon/jwt-auth": "^1.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

@@ -1,0 +1,115 @@
+[2024-06-21 10:08:12] local.INFO: User 1 with ID - 1 just added the new asset with ID - 14  
+[2024-06-21 10:08:46] local.INFO: User 1 with ID - 1 just deleted the asset ID - 14  
+[2024-06-21 10:08:49] local.INFO: User 1 with ID - 1 just deleted the asset ID - 13  
+[2024-06-21 10:08:54] local.INFO: User 1 with ID - 1 just deleted the asset ID - 12  
+[2024-06-21 10:08:59] local.INFO: User 1 with ID - 1 just deleted the asset ID - 10  
+[2024-06-21 10:09:04] local.INFO: User 1 with ID - 1 just deleted the asset ID - 11  
+[2024-06-21 10:09:07] local.INFO: User 1 with ID - 1 just deleted the asset ID - 9  
+[2024-06-21 10:09:20] local.INFO: User 1 with ID - 1 just deleted the brand ID - 30  
+[2024-06-21 10:09:28] local.INFO: User 1 with ID - 1 just deleted the model ID - 24  
+[2024-06-21 10:13:15] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 10:13:29] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 10:14:08] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 10:14:44] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 10:15:23] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 10:57:38] local.INFO: User 1 with ID - 1 just added a new model with ID - 25  
+[2024-06-21 10:57:52] local.INFO: User 1 with ID - 1 just updated the model name - ID 16...  
+[2024-06-21 10:58:14] local.INFO: User 1 with ID - 1 just added a new model with ID - 26  
+[2024-06-21 10:58:41] local.INFO: User 1 with ID - 1 just added a new model with ID - 27  
+[2024-06-21 10:58:56] local.INFO: User 1 with ID - 1 just updated the brand name - ID 13...  
+[2024-06-21 10:59:51] local.INFO: User 1 with ID - 1 just updated the model name - ID 23...  
+[2024-06-21 11:07:28] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:07:32] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:08:26] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:10:57] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:11:15] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:12:58] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:13:40] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:14:05] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:14:59] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:15:40] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:15:51] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:23:08] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:26:14] local.INFO: User 1 with ID - 1 just deleted the asset ID - 15  
+[2024-06-21 11:26:19] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:26:20] local.INFO: User 1 with ID - 1 just deleted the asset ID - 16  
+[2024-06-21 11:26:24] local.INFO: User 1 with ID - 1 just deleted the asset ID - 17  
+[2024-06-21 11:26:29] local.INFO: User 1 with ID - 1 just deleted the asset ID - 18  
+[2024-06-21 11:26:34] local.INFO: User 1 with ID - 1 just deleted the asset ID - 19  
+[2024-06-21 11:26:40] local.INFO: User 1 with ID - 1 just deleted the asset ID - 8  
+[2024-06-21 11:27:22] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:28:48] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:29:52] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:30:11] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:30:13] local.INFO: User 1 with ID - 1 just deleted the asset ID - 15  
+[2024-06-21 11:31:41] local.INFO: User 1 with ID - 1 just added a new SKU with ID - 13  
+[2024-06-21 11:32:12] local.INFO: User 1 with ID - 1 just added a new SKU with ID - 14  
+[2024-06-21 11:32:25] local.INFO: User 1 with ID - 1 just added a new SKU with ID - 15  
+[2024-06-21 11:32:37] local.INFO: User 1 with ID - 1 just added a new SKU with ID - 16  
+[2024-06-21 11:34:07] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:35:11] local.INFO: User 1 with ID - 1 just added the new asset with ID - 7  
+[2024-06-21 11:35:18] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:36:20] local.INFO: User 1 with ID - 1 just added the new asset with ID - 7  
+[2024-06-21 11:36:52] local.INFO: User 1 with ID - 1 just added the new asset with ID - 7  
+[2024-06-21 11:39:19] local.INFO: User 1 with ID - 1 just added the new asset with ID - 7  
+[2024-06-21 11:46:09] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:49:43] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:51:08] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:54:00] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:55:13] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:57:10] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 11:58:03] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 12:05:38] local.INFO: User 1 with ID - 1 just deleted the brand ID - 28  
+[2024-06-21 12:05:44] local.INFO: User 1 with ID - 1 just deleted the brand ID - 29  
+[2024-06-21 12:06:27] local.INFO: User 1 with ID - 1 just deleted the brand ID - 29  
+[2024-06-21 12:34:33] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 13:57:57] local.INFO: User 1 with ID - 1 just added a new model with ID - 29  
+[2024-06-21 13:58:29] local.INFO: User 1 with ID - 1 just added a new model with ID - 30  
+[2024-06-21 13:58:51] local.INFO: User 1 with ID - 1 just added a new model with ID - 31  
+[2024-06-21 13:59:14] local.INFO: User 1 with ID - 1 just added a new model with ID - 32  
+[2024-06-21 13:59:37] local.INFO: User 1 with ID - 1 just updated the model name - ID 31...  
+[2024-06-21 14:09:11] local.INFO: User 1 with ID - 1 just added the new component info with ID - 13  
+[2024-06-21 14:09:30] local.INFO: User 1 with ID - 1 just deleted the component ID - 13  
+[2024-06-21 14:14:33] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 14:14:58] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 14:17:04] local.INFO: User 1 with ID - 1 just added the new component info with ID - 14  
+[2024-06-21 14:21:03] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 14:22:32] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-21 14:28:15] local.INFO: User 1 with ID - 1 just added the new component info with ID - 15  
+[2024-06-21 14:29:00] local.INFO: User 1 with ID - 1 just added the new asset with ID - 23  
+[2024-06-21 14:34:51] local.INFO: User 1 with ID - 1 just updated the component info ID - 15  
+[2024-06-21 14:39:25] local.INFO: User 1 with ID - 1 just added the new component info with ID - 16  
+[2024-06-21 14:40:09] local.INFO: User 1 with ID - 1 just added the new component info with ID - 17  
+[2024-06-21 14:40:59] local.INFO: User 1 with ID - 1 just added the new component info with ID - 18  
+[2024-06-21 14:41:34] local.INFO: User 1 with ID - 1 just deleted the asset ID - 24  
+[2024-06-21 14:41:51] local.INFO: User 1 with ID - 1 just deleted the asset ID - 25  
+[2024-06-21 14:41:58] local.INFO: User 1 with ID - 1 just deleted the asset ID - 26  
+[2024-06-21 14:42:02] local.INFO: User 1 with ID - 1 just deleted the asset ID - 27  
+[2024-06-21 14:42:06] local.INFO: User 1 with ID - 1 just deleted the asset ID - 28  
+[2024-06-21 14:42:13] local.INFO: User 1 with ID - 1 just deleted the asset ID - 20  
+[2024-06-21 14:42:18] local.INFO: User 1 with ID - 1 just deleted the asset ID - 21  
+[2024-06-21 14:42:22] local.INFO: User 1 with ID - 1 just deleted the asset ID - 22  
+[2024-06-21 14:42:27] local.INFO: User 1 with ID - 1 just deleted the asset ID - 23  
+[2024-06-21 14:43:19] local.INFO: User 1 with ID - 1 just added the new asset with ID - 7  
+[2024-06-21 14:48:00] local.INFO: User 1 with ID - 1 just updated the component info ID - 16  
+[2024-06-21 14:52:16] local.INFO: User 1 with ID - 1 just updated the component info ID - 16  
+[2024-06-21 14:52:58] local.INFO: User 1 with ID - 1 just updated the component info ID - 17  
+[2024-06-21 14:55:50] local.INFO: User 1 with ID - 1 just updated the component info ID - 18  
+[2024-06-21 16:04:07] local.INFO: User 1 with ID - 1 just deleted the model ID - 23  
+[2024-06-21 16:04:16] local.INFO: User 1 with ID - 1 just deleted the model ID - 27  
+[2024-06-21 16:04:31] local.INFO: User 1 with ID - 1 just deleted the model ID - 13  
+[2024-06-21 16:04:39] local.INFO: User 1 with ID - 1 just deleted the model ID - 8  
+[2024-06-21 16:04:57] local.INFO: User 1 with ID - 1 just deleted the model ID - 14  
+[2024-06-21 16:05:41] local.INFO: User 1 with ID - 1 just updated the component info ID - 3  
+[2024-06-21 16:06:29] local.INFO: User 1 with ID - 1 just updated the component info ID - 1  
+[2024-06-21 16:14:22] local.INFO: User 1 with ID - 1 just added the new component info with ID - 19  
+[2024-06-21 16:14:59] local.INFO: User 1 with ID - 1 just updated the component info ID - 19  
+[2024-06-21 16:17:39] local.INFO: User 1 with ID - 1 just added the new component info with ID - 20  
+[2024-06-21 16:18:38] local.INFO: User 1 with ID - 1 just updated the component info ID - 1  
+[2024-06-21 16:20:47] local.INFO: User 1 with ID - 1 just added the new component info with ID - 21  
+[2024-06-21 16:21:35] local.INFO: User 1 with ID - 1 just updated the component info ID - 21  
+[2024-06-21 16:23:22] local.INFO: User 1 with ID - 1 just added the new component info with ID - 22  
+[2024-06-21 16:23:45] local.INFO: User 1 with ID - 1 just updated the component info ID - 22  
+[2024-06-21 16:23:57] local.INFO: User 1 with ID - 1 just updated the component info ID - 21  
+[2024-06-21 16:25:00] local.INFO: User 1 with ID - 1 just deleted the component ID - 14  
+[2024-06-21 16:29:36] local.INFO: User 1 with ID - 1 just updated the component info ID - 4  

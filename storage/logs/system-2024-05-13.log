@@ -1,0 +1,9 @@
+[2024-05-13 19:18:04] local.ERROR: No query results for model [App\Models\Component] 2  
+[2024-05-13 19:20:24] local.ERROR: No query results for model [App\Models\Component] 2  
+[2024-05-13 19:22:31] local.ERROR: No query results for model [App\Models\Component] 2  
+[2024-05-13 19:22:53] local.ERROR: No query results for model [App\Models\Component] 2  
+[2024-05-13 19:44:24] local.ERROR: Invalid argument supplied for foreach()  
+[2024-05-13 19:45:15] local.ERROR: Invalid argument supplied for foreach()  
+[2024-05-13 19:45:32] local.ERROR: Indirect modification of overloaded property App\Models\Asset::$component_ids has no effect  
+[2024-05-13 19:47:16] local.ERROR: Indirect modification of overloaded property App\Models\Asset::$component_ids has no effect  
+[2024-05-13 19:48:15] local.ERROR: Indirect modification of overloaded property App\Models\Asset::$component_ids has no effect  

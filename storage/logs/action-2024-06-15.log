@@ -1,0 +1,117 @@
+[2024-06-15 16:20:18] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 16:32:40] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 16:34:50] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 16:38:02] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:03:24] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:04:27] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:05:08] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'serial_number' doesn't have a default value (SQL: insert into `components` (`brand`, `model`, `category`, `remarks`, `created_at`, `is_active`, `updated_at`) values (INPINITY, 55X-GEN 3, Android Motherboard, ?, 2024-06-15 17:05:08, 1, 2024-06-15 17:05:08))  
+[2024-06-15 17:05:51] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'manufacture_by' cannot be null (SQL: insert into `component_details` (`component_id`, `product_image`, `ram`, `storage`, `wifi`, `manufacture_by`, `factory_warranty`, `price`, `currency`, `specification`, `updated_at`, `created_at`) values (6, [], ?, ?, ?, ?, ?, 1, 1, [
+                                "system version":"1","cpu":"1","gpu":"1","ram":"1","storage":"1","wifi":"1","hotspot":"1","bluetooth":"1","wan":"1"], 2024-06-15 17:05:51, 2024-06-15 17:05:51))  
+[2024-06-15 17:07:25] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'manufacture_by' doesn't have a default value (SQL: insert into `component_details` (`component_id`, `product_image`, `price`, `currency`, `specification`, `updated_at`, `created_at`) values (7, [], 1, 1, [
+                                "system version":"1","cpu":"1","gpu":"1","ram":"1","storage":"1","wifi":"1","hotspot":"1","bluetooth":"1","wan":"1"], 2024-06-15 17:07:25, 2024-06-15 17:07:25))  
+[2024-06-15 17:08:15] local.INFO: User 1 with ID - 1 just added the new component info with ID - 8  
+[2024-06-15 17:09:27] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:09:57] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:11:26] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:11:41] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:12:30] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:14:37] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:14:56] local.INFO: User 1 with ID - 1 just added the new component info with ID - 9  
+[2024-06-15 17:16:04] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:16:45] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:17:07] local.INFO: User 1 with ID - 1 just added the new component info with ID - 10  
+[2024-06-15 17:17:28] local.INFO: User 1 with ID - 1 just added the new component info with ID - 11  
+[2024-06-15 17:17:41] local.INFO: User 1 with ID - 1 just added the new component info with ID - 12  
+[2024-06-15 17:17:53] local.INFO: User 1 with ID - 1 just added the new component info with ID - 13  
+[2024-06-15 17:18:09] local.INFO: User 1 with ID - 1 just added the new component info with ID - 14  
+[2024-06-15 17:18:24] local.INFO: User 1 with ID - 1 just added the new component info with ID - 15  
+[2024-06-15 17:18:42] local.INFO: User 1 with ID - 1 just added the new component info with ID - 16  
+[2024-06-15 17:18:58] local.INFO: User 1 with ID - 1 just added the new component info with ID - 17  
+[2024-06-15 17:19:15] local.INFO: User 1 with ID - 1 just added the new component info with ID - 18  
+[2024-06-15 17:19:37] local.INFO: User 1 with ID - 1 just added the new component info with ID - 19  
+[2024-06-15 17:26:41] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:32:37] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:33:02] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:33:14] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:33:48] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:34:04] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:34:18] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:35:05] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:35:16] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:35:19] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:42:24] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:42:27] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:43:35] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:44:16] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:45:01] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:45:27] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:48:06] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:48:39] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:49:17] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:50:01] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:50:21] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:51:28] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:51:46] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:57:54] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:58:15] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:58:31] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:59:15] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:59:34] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 17:59:54] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 18:00:22] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 18:00:49] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 18:01:04] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 18:01:23] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 18:01:40] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 18:01:57] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 18:02:45] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 18:03:45] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 18:03:55] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 18:06:54] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:01:19] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:01:25] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:01:53] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:15:13] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:15:32] local.INFO: User 1 with ID - 1 just updated the component info ID - 9  
+[2024-06-15 23:15:38] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:15:54] local.INFO: User 1 with ID - 1 just updated the component info ID - 10  
+[2024-06-15 23:16:09] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:16:19] local.INFO: User 1 with ID - 1 just updated the component info ID - 11  
+[2024-06-15 23:16:28] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:16:44] local.INFO: User 1 with ID - 1 just updated the component info ID - 12  
+[2024-06-15 23:16:46] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:17:32] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:17:34] local.INFO: User 1 with ID - 1 just updated the component info ID - 13  
+[2024-06-15 23:17:36] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:17:46] local.INFO: User 1 with ID - 1 just updated the component info ID - 14  
+[2024-06-15 23:17:48] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:17:59] local.INFO: User 1 with ID - 1 just updated the component info ID - 16  
+[2024-06-15 23:18:04] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:18:10] local.INFO: User 1 with ID - 1 just updated the component info ID - 17  
+[2024-06-15 23:18:12] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:18:25] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:19:42] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:19:48] local.INFO: User 1 with ID - 1 just updated the component info ID - 18  
+[2024-06-15 23:19:53] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:20:02] local.INFO: User 1 with ID - 1 just updated the component info ID - 19  
+[2024-06-15 23:20:24] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:21:37] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:22:01] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:22:08] local.ERROR: Undefined index: id  
+[2024-06-15 23:24:20] local.INFO: User 1 with ID - 1 just added the new asset with ID - 8  
+[2024-06-15 23:24:25] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:24:29] local.INFO: User 1 with ID - 1 just added the new asset with ID - 8  
+[2024-06-15 23:24:32] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:26:29] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:26:32] local.INFO: User 1 with ID - 1 just added the new asset with ID - 8  
+[2024-06-15 23:26:42] local.INFO: User 1 with ID - 1 just added the new asset with ID - 8  
+[2024-06-15 23:26:47] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:26:50] local.INFO: User 1 with ID - 1 just added the new asset with ID - 8  
+[2024-06-15 23:26:55] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:26:58] local.INFO: User 1 with ID - 1 just added the new asset with ID - 8  
+[2024-06-15 23:27:03] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:36:08] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:42:46] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:44:15] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:45:23] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  
+[2024-06-15 23:46:13] local.ERROR: Invalid route attempt: js/popper.js.map by user ID: 1  

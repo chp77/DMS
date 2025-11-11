@@ -1,0 +1,21 @@
+[2024-06-03 20:57:46] local.INFO: User 1 with ID - 1 just deleted the brand ID - 4  
+[2024-06-03 20:57:53] local.INFO: User 1 with ID - 1 just deleted the brand ID - 3  
+[2024-06-03 20:58:13] local.INFO: User 1 with ID - 1 just updated the brand name - ID 2...  
+[2024-06-03 20:58:32] local.INFO: User 1 with ID - 1 just updated the brand name - ID 1...  
+[2024-06-03 20:59:14] local.INFO: User 1 with ID - 1 just added a new brand with ID - 5  
+[2024-06-03 21:00:09] local.INFO: User 1 with ID - 1 just updated the brand name - ID 2...  
+[2024-06-03 21:00:28] local.INFO: User 1 with ID - 1 just updated the brand name - ID 1...  
+[2024-06-03 21:00:42] local.INFO: User 1 with ID - 1 just added a new brand with ID - 6  
+[2024-06-03 21:00:55] local.INFO: User 1 with ID - 1 just added a new brand with ID - 7  
+[2024-06-03 21:01:11] local.INFO: User 1 with ID - 1 just added a new brand with ID - 8  
+[2024-06-03 21:03:07] local.INFO: User 1 with ID - 1 just added a new brand with ID - 9  
+[2024-06-03 21:03:24] local.INFO: User 1 with ID - 1 just added a new brand with ID - 10  
+[2024-06-03 21:03:44] local.INFO: User 1 with ID - 1 just added a new brand with ID - 11  
+[2024-06-03 21:04:00] local.INFO: User 1 with ID - 1 just added a new brand with ID - 12  
+[2024-06-03 21:10:30] local.INFO: User 1 with ID - 1 just deleted the component ID - 3  
+[2024-06-03 21:10:43] local.INFO: User 1 with ID - 1 just deleted the component ID - 2  
+[2024-06-03 21:11:17] local.INFO: User 1 with ID - 1 just deleted the component ID - 1  
+[2024-06-03 21:16:30] local.INFO: User 1 with ID - 1 just added the new component info with ID - 4  
+[2024-06-03 21:16:45] local.INFO: User 1 with ID - 1 just updated the component info ID - 4  
+[2024-06-03 21:17:31] local.INFO: User 1 with ID - 1 just updated the component info ID - 4  
+[2024-06-03 22:45:36] local.INFO: User 1 with ID - 1 just updated the component info ID - 4  
